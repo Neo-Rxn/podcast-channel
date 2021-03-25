@@ -158,8 +158,53 @@ body {
 
 .history{
 	display: flex;
+	flex-direction: column;
 }
+
+.phone{
+	margin-bottom: -5rem;
+}
+
 .phone img{
 	width:100%;
 	transform:translate(0, -17%);
+}
+
+#about-title{
+	font-family: 'IBM Plex Sans';
+	font-size: 2.25rem;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 2.63rem;
+	margin: 0 1rem;
+	margin-bottom: 1rem;
+}
+
+.about-description{
+	/*width: 100%;*/
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 0.7rem;
+	font-weight: 400;
+	line-height: 1.38rem;
+	letter-spacing: 0;
+	margin-left: 0.9rem;
+	margin-right: 0.9rem;
+}
+#about-firstaragraph{
+	margin-bottom: 1rem;
+}
+.gallery{
+	margin-top:3.38rem;
+	display: flex;
+	flex-direction: column;
+}
+
+#gallery-title{
+	font-family: 'IBM Plex Sans';
+	font-size: 2.25rem;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 2.63rem;
+	margin: 0 1rem;
+	margin-bottom: 1rem;
 }
