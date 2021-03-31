@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
-
 :root {
     font-size: 16px;
-    max-width: 1200px;
+    max-width: 1440px;
 }
 
 body {
@@ -24,7 +21,7 @@ body {
 .main-container {
     display: flex;
     flex-direction: column;
-    width: 20rem;
+    /*width: 20rem;*/
     justify-content: center;
     align-items: center;
     border: 1px solid black;
@@ -163,6 +160,8 @@ body {
 
 .phone {
     margin-bottom: -5rem;
+    margin-top: 10%;
+
 }
 
 .phone img {
@@ -257,10 +256,13 @@ body {
 
 .subscribe {
     width: 100%;
-    height: 21.31rem;
+    /*height: 21.31rem;*/
     background: linear-gradient(225deg, rgba(0, 0, 255, 1) 0%, rgba(0, 0, 163, 1) 100%);
     clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
     overflow: visible;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
     /*z-index: -100;*/
 }
 
