@@ -7,9 +7,10 @@
 }
 
 body {
-    display: flex;
+    /*display: flex;*/
+    margin: 0 auto;
     /*align-items: center;*/
-    justify-content: center;
+    /*justify-content: center;*/
 }
 
 * {
@@ -20,11 +21,11 @@ body {
     }
 
 .main-container {
-    display: flex;
+	display: flex;
     flex-direction: column;
     /*width: 20rem;*/
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;
+    align-items: center;*/
     border: 1px solid black;
 }
 
